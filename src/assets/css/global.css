@@ -1,0 +1,126 @@
+@import url('https://fonts.googleapis.com/css2?family=Lobster+Two&display=swap');
+* {
+    padding: 0;
+    margin: 0;
+    outline: 0;
+    font-family: 'Lobster Two', cursive;
+    box-sizing: border-box;
+}
+.body {
+    min-height: 100vh;
+    background-color: var(--dark);
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+#cover{
+    min-height: 100vh;
+    background-color: rgba(0, 0, 0, .7);
+    position: absolute;
+    right: 0;
+    left: 0;
+    top: 0;
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+}
+.h1 {
+    text-align: center;
+    margin: 20px;
+    color: var(--primary);
+}
+nav {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+nav .a {
+    text-align: center;
+    background-color: var(--dark);
+    border: 1px solid var(--purple);
+    color: var(--yellow);
+    width: 200px;
+    height: 35px;
+    margin: 12px;
+    padding: 5px;
+    font-size: 17px;
+}
+nav .a:hover {
+    background-color: var(--cyan);
+    text-decoration: none;
+}
+aside {
+    position: fixed;
+    top: 0;
+    right: 0;
+    z-index: 999;
+    display: flex;
+}
+#menu-opener {
+    background-color: rgba(0, 0, 0, .7);
+    width: 40px;
+    height: 40px;
+    cursor: pointer;
+    margin-top: 10px;
+    margin-right: 10px;
+    margin-left: 10px;
+}
+#menu-area {
+    width: 200px;
+    height: 100vh;
+    overflow-x: hidden;
+    background-color: var(--secondary);
+    overflow-y: auto;
+    transition: all ease .5s;
+}
+#menu-area nav,
+#menu-area .a {
+    margin: 0;
+}
+#menu-area .a {
+    display: block;
+    padding: 10px;
+    height: 50px;
+    cursor: pointer;
+}
+.container-md .col {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.poema {
+    align-self: start;
+    color: var(--red);
+    margin-bottom: 35px;
+}
+.poema p.row {
+    margin: 9px;
+    font-family: 'Lobster', Arial, Helvetica, sans-serif;
+    font-size: 18px;
+}
+.poema .row.startvers {
+    margin-top: 30px;
+}
+i {
+    font-weight: normal;
+    font-style: italic;
+    font-family: 'Lobster', cursive;
+}
+strong {
+    font-weight: normal;
+    font-style: italic;
+    color: var(--primary);
+    font-family: 'Lobster', cursive;
+}
+strong .a:hover {
+    text-decoration: none;
+    color: var(--purple);
+}
+.h3 {
+    color: var(--success);
+    text-align: center;
+}
