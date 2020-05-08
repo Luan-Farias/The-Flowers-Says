@@ -26,8 +26,8 @@ export default function End(){
             </aside>
             <div className="container-md" id="cover">
             <div className="h3 mt-5">From: A Nowhere Man</div>
-                <div className="h3 mb-3">To: A Nowhere  </div>
-                <div className="h1">Your Poem / Tulipa Vermelha</div>
+                <div className="h3 mb-3">To: A Nowhere Woman</div>
+                <div className="h1">Your Poem / Red Tulip/div>
                 <div className="col">
                     <div className="poema">
                         <p className="row startvers">Um verdadeiro homem de lugar nenhum</p>
